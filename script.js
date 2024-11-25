@@ -9,7 +9,9 @@ const imageHeight = 4993;
 const bounds = [[0, 0], [imageHeight, imageWidth]];
 
 const imageUrl = 'labeledMap.png';
-L.imageOverlay(imageUrl, bounds).addTo(map);
+L.imageOverlay(imageUrl, bounds, {
+    className: 'pixelated'
+}).addTo(map);
 
 map.fitBounds(bounds);
 map.setMaxBounds(bounds);
