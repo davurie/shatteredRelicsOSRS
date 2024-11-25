@@ -7,11 +7,10 @@
     font-style: normal;
 }
 
-/* Apply the font globally or to specific elements */
-body {
+body,
+button {
     font-family: 'RuneScape UF', sans-serif;
 }
-
 
 body {
     margin: 0;
@@ -29,6 +28,7 @@ body {
 h1 {
     margin: 0;
     margin-bottom: 1rem;
+    font-weight: normal;
 }
 
 #map-container {
