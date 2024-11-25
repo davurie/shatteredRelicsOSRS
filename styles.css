@@ -1,3 +1,18 @@
+@font-face {
+    font-family: 'RuneScape UF';
+    src: url('/assets/runescape_uf.woff2') format('woff2'),
+        url('/assets/runescape_uf.woff') format('woff'),
+        url('/assets/runescape_uf.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Apply the font globally or to specific elements */
+body {
+    font-family: 'RuneScape UF', sans-serif;
+}
+
+
 body {
     margin: 0;
     background-color: #121212;
@@ -7,11 +22,8 @@ body {
     align-items: center;
     height: 100vh;
     position: relative;
-}
-
-* {
-    font-weight: 100 !important;
     font-family: "Runescape UF", sans-serif;
+
 }
 
 h1 {
