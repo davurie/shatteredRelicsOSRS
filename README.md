@@ -44,6 +44,7 @@ Follow the steps below to install and run the app:
 ```bash
 git clone https://github.com/your-username/tasksmap.git
 cd tasksmap
+npm install
 ```
 ### Package the app using Electron Packager:
 
