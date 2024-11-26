@@ -128,11 +128,6 @@ const taskFlow = {
         }
     },
 
-    reset() {
-        localStorage.removeItem('taskFlowProgress');
-        location.reload();
-    },
-
     init(data) {
         this.rows = data.map((row, index) => ({
             ...row,
@@ -310,4 +305,3 @@ taskFlow.init(sampleData);
 
 document.getElementById('mark-done-btn').addEventListener('click', () => taskFlow.markAsDone());
 document.getElementById('undo-btn').addEventListener('click', () => taskFlow.undo());
-document.getElementById('reset-btn').addEventListener('click', () => taskFlow.reset());

@@ -1,0 +1,64 @@
+# Node modules
+node_modules/
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Operating system files
+.DS_Store
+Thumbs.db
+
+# Build directories
+dist/
+build/
+out/
+
+# Electron-packager or electron-builder output
+!src/
+*.asar
+*.snap
+
+# Compiled files
+*.lock
+*.pyc
+*.pyo
+*.pyd
+
+# Environment variables
+.env
+.env.local
+.env.*.local
+
+# Editor-specific files
+.idea/
+.vscode/
+*.sublime-project
+*.sublime-workspace
+
+# Miscellaneous
+*.bak
+*.swp
+*.tmp
+*.temp
+
+# Coverage reports
+coverage/
+*.lcov
+
+# Optional npm cache directory
+.npm/
+
+# Optional yarn cache directory
+.yarn/
+
+# Temporary files
+.tmp/
+.temp/
+*.bak~
+
+# Electron Forge or similar tools
+forge.config.js

@@ -1,0 +1,19 @@
+{
+  "name": "tasksmap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^33.2.0",
+    "electron-packager": "^17.1.2"
+  },
+  "dependencies": {
+    "leaflet": "^1.9.4"
+  }
+}

@@ -10,25 +10,52 @@
 </head>
 
 <body>
+    <div id="custom-toolbar">
+        <div id="close-btn" class="icon-button">
+            <img src="./assets/icons/x.svg" alt="Close app" title="Close">
+        </div>
+        <div id="reset-btn" class="icon-button">
+            <img src="./assets/icons/trash.svg" alt="Reset Progress" title="Reset">
+        </div>
+        <div id="drag-handle" title="Drag Window"> <img src="./assets/icons/grip.svg" alt="Drag Handle"> </div>
+    </div>
+
     <div id="loading-overlay">Loading Map...</div>
+
+    <div id="tutorial-overlay" class="overlay hidden">
+        <div class="tutorial-content">
+            <h1>Welcome to the Leagues Starting Tasks App!</h1>
+            <h2>Hotkeys</h2>
+            <h3>If using the browser version, you have to focus on the tab to use hotkeys.</h3>
+            <ul>
+                <li>Control + Space: Mark the current task as done.</li>
+                <li>Shift + Space: Undo the last task.</li>
+            </ul>
+
+            <h2>Text Colors</h2>
+            <ul>
+                <li class="instructions">Instructions: Recommended actions that will help later on.</li>
+                <li class="task">Task: Your current league task.</li>
+                <li class="note">Task Notes: Extra information about the current task.</li>
+            </ul>
+
+            <button id="close-tutorial-btn">Got it!</button>
+        </div>
+    </div>
+
     <div id="map" style="width: 100%; height: 100vh;"></div>
     <div id="task-panel">
-        <div class="buttons">
-            <div id="lock"></div>
-            <div id="drag-handle">
-                <img src="./assets/icons/grip.svg" alt="Drag Handle" class="drag-icon">
-            </div>
-        </div>
-        <h1>Raging Echoes Starting Tasks</h1>
-        <div class="counters">
+        <!-- <h1>Raging Echoes Starting Tasks</h1> -->
+        <div class="counters" style="display: none;">
             <span>Completed Tasks: <span id="completed-tasks">0</span></span> |
             <span>Total Points: <span id="total-points">0</span></span>
         </div>
         <div class="subsection" id="current-subsection"></div>
-        <div id="current-instructions" class="instructions"></div>
-        <div id="current-task" class="task"></div>
-        <div id="current-task-note" class="note" style="display: none;"></div>
-
+        <div class="content">
+            <div id="current-instructions" class="instructions"></div>
+            <div id="current-task" class="task"></div>
+            <div id="current-task-note" class="note" style="display: none;"></div>
+        </div>
         <div class="buttons">
             <button id="undo-btn" style="display: none;">Undo</button>
             <button id="mark-done-btn" style="display: none;">Mark as Done</button>
@@ -36,12 +63,9 @@
 
     </div>
 
-    <button id="reset-btn">Reset</button>
-
     <script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
-    <script src="script.js"></script>
+    <script src="renderer.js"></script>
     <script src="taskFlow.js"></script>
-    <script src="taskPanelDrag.js"></script>
 </body>
 
 

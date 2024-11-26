@@ -1,5 +1,4 @@
 const taskPanel = document.getElementById('task-panel');
-const dragHandle = document.getElementById('drag-handle');
 let isDragging = false;
 let offsetX = 0;
 let offsetY = 0;
@@ -117,10 +116,8 @@ function loadPosition() {
 
 // Attach event listeners
 function addEventListeners() {
-    dragHandle.addEventListener('mousedown', startDrag);
     document.addEventListener('mousemove', drag);
     document.addEventListener('mouseup', endDrag);
-    dragHandle.addEventListener('touchstart', startDrag);
     document.addEventListener('touchmove', drag);
     document.addEventListener('touchend', endDrag);
     window.addEventListener('resize', handleDragEnd);

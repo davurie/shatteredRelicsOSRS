@@ -25,7 +25,22 @@ body {
 
 }
 
-h1 {
+.content::-webkit-scrollbar {
+    width: 0.4rem;
+}
+
+.content::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+}
+
+.content::-webkit-scrollbar-thumb {
+    background-color: darkgrey;
+    outline: 1px solid slategrey;
+}
+
+h1,
+h2,
+h3 {
     margin: 0;
     margin-bottom: 1rem;
     font-weight: normal;
@@ -48,30 +63,33 @@ canvas {
     left: 0;
     width: 100%;
     height: 100%;
-    background: #000;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 1);
     color: white;
     font-size: 2em;
     font-family: Arial, sans-serif;
     display: flex;
     justify-content: center;
     align-items: center;
-    z-index: 100000;
+    z-index: 101;
 }
 
 #task-panel {
-    position: absolute;
-    top: 20px;
-    left: 20px;
-    width: 300px;
-    max-height: 90vh;
-    padding: 16px;
+    max-width: 350px;
+    min-width: 350px;
+    height: calc(100% - 2rem);
+    padding: 1rem;
     background-color: #2a2a2a;
     color: #ffffcc;
-    border-radius: 8px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
-    z-index: 1000;
     cursor: default;
-    transition: top 0.3s, left 0.3s;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.content {
+    overflow-y: auto;
+    flex-grow: 1;
 }
 
 .buttons {
@@ -79,41 +97,19 @@ canvas {
     justify-content: center;
 }
 
-#drag-handle {
-    cursor: grab;
-    text-align: center;
-    color: #fff;
-    width: 1rem;
-}
-
-#drag-handle:active {
-    cursor: grabbing;
-}
-
-.drag-icon {
-    width: 1rem;
-    height: 1rem;
-    pointer-events: none;
-}
-
 .subsection {
     font-size: 1.5rem;
     color: #ffff99;
-    margin-bottom: 10px;
+    margin-bottom: 0.75rem;
     text-shadow: 1px 1px 2px #000;
 }
 
-/* .instructions {
-    font-size: 1.2rem;
-    color: #cccc99;
-    font-style: italic;
-    margin-bottom: 10px;
-} */
-
 .task {
-    font-size: 1.4rem;
+    border-left: 4px solid #ffffff;
+    padding-left: 8px;
+    font-size: 1.8rem;
     color: #ffffff;
-    margin-bottom: 10px;
+    margin-bottom: 0.75rem;
     text-shadow: 1px 1px 2px #000;
 }
 
@@ -123,7 +119,7 @@ canvas {
     color: #ffcc33;
     border-left: 4px solid #ffcc33;
     padding-left: 8px;
-    margin-bottom: 10px;
+    margin-bottom: 0.75rem;
     text-shadow: 1px 1px 2px #000;
 }
 
@@ -135,14 +131,14 @@ canvas {
 .counters {
     font-size: 1.2rem;
     color: #cccc99;
-    margin-bottom: 10px;
+    margin-bottom: 0.75rem;
     border-bottom: 1px solid #cccc99;
     width: 100%;
 }
 
 #mark-done-btn,
-#reset-btn,
-#undo-btn {
+#undo-btn,
+#close-tutorial-btn {
     padding: 8px 12px;
     font-size: 1.5rem;
     background-color: #70542d;
@@ -163,24 +159,24 @@ canvas {
     width: 25%;
 }
 
+#close-tutorial-btn {
+    width: 100%;
+}
+
 .buttons {
     display: flex;
     justify-content: space-between;
 }
 
-#reset-btn {
-    position: absolute;
-    left: 0;
-    top: 0;
-    margin: 20px;
-    z-index: 10000;
-}
-
-#mark-done-btn:hover {
+#mark-done-btn:hover,
+#undo-btn:hover,
+#close-tutorial-btn:hover {
     background-color: #8c6f3d;
 }
 
-#mark-done-btn:active {
+#mark-done-btn:active,
+#undo-btn:active,
+#close-tutorial-btn:active {
     background-color: #5a3f1d;
 }
 
@@ -219,16 +215,6 @@ canvas {
     text-shadow: 1px 1px 2px #202020;
 }
 
-@media screen and (max-width: 768px) {
-    #task-panel {
-        max-width: 100%;
-    }
-
-    #mark-done-btn {
-        font-size: 2rem;
-    }
-}
-
 .pixelated {
     image-rendering: optimizeSpeed;
     image-rendering: -moz-crisp-edges;
@@ -236,4 +222,128 @@ canvas {
     image-rendering: -webkit-optimize-contrast;
     image-rendering: pixelated;
     image-rendering: crisp-edges;
+}
+
+#custom-toolbar {
+    display: flex;
+    position: absolute;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    background-color: #2a2a2a;
+    border-bottom: 1px solid #444;
+    user-select: none;
+    -webkit-app-region: drag;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+    border-bottom-right-radius: 8px;
+    cursor: grab;
+}
+
+#custom-toolbar:active {
+    cursor: grabbing;
+}
+
+.icon-button {
+    width: 24px;
+    height: 24px;
+    display: flex;
+    cursor: pointer;
+    padding: 8px;
+    transition: background-color 0.2s ease, transform 0.2s ease;
+    user-select: none;
+    -webkit-app-region: no-drag;
+    -webkit-user-drag: none;
+    justify-content: center;
+    align-items: center;
+}
+
+#close-btn>img {
+    width: 24px;
+    height: 24px;
+}
+
+#reset-btn>img {
+    width: 18px;
+    height: 18px;
+}
+
+.icon-button:hover {
+    background-color: #444;
+    border-radius: 4px;
+}
+
+#drag-handle {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 8px;
+    cursor: grab;
+    pointer-events: none;
+}
+
+#drag-handle:active {
+    cursor: grabbing;
+}
+
+#drag-handle img {
+    width: 24px;
+    height: 24px;
+    pointer-events: none;
+}
+
+.overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.9);
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 10000;
+}
+
+.overlay.hidden {
+    display: none;
+}
+
+.tutorial-content {
+    text-align: start;
+    max-width: 600px;
+    padding: 20px;
+    border-radius: 8px;
+    background-color: #2a2a2a;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.8);
+}
+
+.tutorial-content h1,
+.tutorial-content h2 {
+    margin-bottom: 1rem;
+}
+
+.tutorial-content ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 1rem 0;
+}
+
+@media screen and (max-width: 768px) {
+
+    body {
+        flex-direction: column;
+    }
+
+    #task-panel {
+        max-width: calc(100% - 2rem);
+        min-width: calc(100% - 2rem);
+    }
+
+    #custom-toolbar {
+        display: none;
+    }
 }
