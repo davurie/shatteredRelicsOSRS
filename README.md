@@ -4,6 +4,8 @@
 
 TasksMap is a lightweight task management app developed to guide through the first hour or so of the Shattered Relics Leagues
 
+Run it on your browser [here](https://shattered-relics-starting-route.vercel.app/)!
+
 ---
 
 ## Features
