@@ -301,7 +301,7 @@ const sampleData = [
     { type: "INSTRUCTION", text: "Misthalin Mystery (Keep Ruby)" },
     { type: "INSTRUCTION", text: "Cut Sapphires to 27 crafting - keep 1" },
     { type: "INSTRUCTION", text: "Cut Emeralds to 34 crafting - keep 1" },
-    { type: "TASK", text: "Complete history quiz - 25 hunter/slayer", points: 10, coords: { x: 6670.00, y: 2907.00 } }
+    { type: "TASK", text: "Complete history quiz - 25 hunter/slayer", points: 10, coords: { x: 6670.00, y: 2907.00 } },
     { type: "INSTRUCTION", text: "Get Tier 3 Relic" },
     { type: "TASK", text: "Complete Rag'n Bone Man", points: 10, coords: { x: 6973.75, y: 3060.50 } }
 ];
