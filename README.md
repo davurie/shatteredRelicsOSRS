@@ -51,7 +51,7 @@ npm install
 ### Package the app using Electron Packager:
 
 ```bash
-npx electron-packager . LeaguesStarterTasks --platform=win32 --arch=x64 --out=dist --overwrite --icon=assets/icons/app-icon.ico
+npx electron-packager . LeaguesStarterTasks --platform=win32 --arch=x64 --out=dist --overwrite --icon=assets/icons/favicon.ico
 ```
 
 ### Replace win32 and x64 with your target platform and architecture. For example:
