@@ -279,7 +279,7 @@ canvas {
     border-radius: 4px;
 }
 
-#drag-handle {
+.drag-handle {
     flex-grow: 1;
     display: flex;
     justify-content: center;
@@ -289,11 +289,11 @@ canvas {
     pointer-events: none;
 }
 
-#drag-handle:active {
+.drag-handle:active {
     cursor: grabbing;
 }
 
-#drag-handle img {
+.drag-handle img {
     width: 24px;
     height: 24px;
     pointer-events: none;
@@ -311,10 +311,6 @@ canvas {
     justify-content: center;
     align-items: center;
     z-index: 10000;
-}
-
-.overlay.hidden {
-    display: none;
 }
 
 .tutorial-content {
@@ -335,6 +331,10 @@ canvas {
     list-style-type: none;
     padding: 0;
     margin: 1rem 0;
+}
+
+.hidden {
+    display: none;
 }
 
 @media screen and (max-width: 768px) {

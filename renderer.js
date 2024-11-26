@@ -60,6 +60,9 @@ const isElectron = () => {
 };
 
 if (isElectron()) {
+    document.getElementById('close-btn').classList.remove('hidden');
+    document.getElementById('drag-handle').classList.remove('hidden');
+
     window.electronAPI.onMarkTaskDone(() => {
         taskFlow.markAsDone();
     });
@@ -68,6 +71,7 @@ if (isElectron()) {
         taskFlow.undo();
     });
 } else {
+
     window.addEventListener('keydown', (event) => {
         if (event.ctrlKey && event.code === 'Space') {
             event.preventDefault();
