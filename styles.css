@@ -1,8 +1,8 @@
 @font-face {
     font-family: 'RuneScape UF';
-    src: url('/assets/fonts/runescape_uf.woff2') format('woff2'),
-        url('/assets/fonts/runescape_uf.woff') format('woff'),
-        url('/assets/fonts/runescape_uf.ttf') format('truetype');
+    src: url('./assets/fonts/runescape_uf.woff2') format('woff2'),
+        url('./assets/fonts/runescape_uf.woff') format('woff'),
+        url('./assets/fonts/runescape_uf.ttf') format('truetype');
     font-weight: normal;
     font-style: normal;
 }
@@ -48,7 +48,7 @@ canvas {
     left: 0;
     width: 100%;
     height: 100%;
-    background: rgba(0, 0, 0, 0.8);
+    background: #000;
     color: white;
     font-size: 2em;
     font-family: Arial, sans-serif;
@@ -74,19 +74,26 @@ canvas {
     transition: top 0.3s, left 0.3s;
 }
 
+.buttons {
+    display: flex;
+    justify-content: center;
+}
+
 #drag-handle {
-    background-color: #444;
-    padding: 8px;
     cursor: grab;
-    border-radius: 8px 8px 0 0;
     text-align: center;
-    font-weight: bold;
     color: #fff;
-    user-select: none;
+    width: 1rem;
 }
 
 #drag-handle:active {
     cursor: grabbing;
+}
+
+.drag-icon {
+    width: 1rem;
+    height: 1rem;
+    pointer-events: none;
 }
 
 .subsection {
