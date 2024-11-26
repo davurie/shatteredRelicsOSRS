@@ -346,8 +346,4 @@ canvas {
         max-width: calc(100% - 2rem);
         min-width: calc(100% - 2rem);
     }
-
-    #custom-toolbar {
-        display: none;
-    }
 }
