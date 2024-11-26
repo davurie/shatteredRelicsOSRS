@@ -260,13 +260,18 @@ canvas {
 }
 
 #close-btn>img {
-    width: 24px;
-    height: 24px;
+    width: 26px;
+    height: 26px;
 }
 
 #reset-btn>img {
     width: 18px;
     height: 18px;
+}
+
+#settings-btn>img {
+    width: 20px;
+    height: 20px;
 }
 
 .icon-button:hover {
@@ -333,7 +338,6 @@ canvas {
 }
 
 @media screen and (max-width: 768px) {
-
     body {
         flex-direction: column;
     }

@@ -47,6 +47,10 @@ document.getElementById('reset-btn').addEventListener('click', (event) => {
     }
 });
 
+document.getElementById('settings-btn').addEventListener('click', () => {
+    document.getElementById('tutorial-overlay').classList.remove('hidden');
+});
+
 const isElectron = () => {
     return (
         typeof process !== 'undefined' &&
