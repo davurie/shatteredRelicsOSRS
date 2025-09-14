@@ -1,47 +1,70 @@
-const { app, BrowserWindow, ipcMain, globalShortcut } = require('electron');
-const path = require('path');
+import routeData from "./assets/routeData.json" with { type: "json" };
+import { taskFlow } from "./src/taskFlow.js";
 
-let mainWindow;
+taskFlow.init(routeData);
 
-app.on('ready', () => {
-    mainWindow = new BrowserWindow({
-        width: 900,
-        height: 400,
-        alwaysOnTop: true,
-        frame: false,
-        resizable: true,
-        webPreferences: {
-            preload: path.join(__dirname, 'preload.js'),
-            contextIsolation: true,
-            nodeIntegration: false
-        },
-    });
+document
+  .getElementById("mark-done-btn")
+  .addEventListener("click", () => taskFlow.markAsDone());
+document
+  .getElementById("undo-btn")
+  .addEventListener("click", () => taskFlow.undo());
 
-    mainWindow.loadFile('index.html');
-
-    globalShortcut.register('Control+Space', () => {
-        if (mainWindow) {
-            mainWindow.webContents.send('mark-task-done');
-        }
-    });
-
-    globalShortcut.register('Shift+Space', () => {
-        if (mainWindow) {
-            mainWindow.webContents.send('mark-task-undo');
-        }
-    });
+window.addEventListener("keydown", (event) => {
+  if (event.ctrlKey && event.code === "Space") {
+    event.preventDefault();
+    taskFlow.markAsDone();
+  }
+  if (event.shiftKey && event.code === "Space") {
+    event.preventDefault();
+    if (taskFlow.hasPreviousTask()) taskFlow.undo();
+  }
 });
 
-app.on('window-all-closed', () => {
-    if (process.platform !== 'darwin') {
-        app.quit();
-    }
-});
+// const { app, BrowserWindow, ipcMain, globalShortcut } = require('electron');
+// const path = require('path');
 
-ipcMain.on('close-app', () => {
-    mainWindow.close();
-});
+// let mainWindow;
 
-app.on('will-quit', () => {
-    globalShortcut.unregisterAll();
-});
+// app.on('ready', () => {
+//     mainWindow = new BrowserWindow({
+//         width: 900,
+//         height: 400,
+//         alwaysOnTop: true,
+//         frame: false,
+//         resizable: true,
+//         webPreferences: {
+//             preload: path.join(__dirname, 'preload.js'),
+//             contextIsolation: true,
+//             nodeIntegration: false
+//         },
+//     });
+
+//     mainWindow.loadFile('index.html');
+
+//     globalShortcut.register('Control+Space', () => {
+//         if (mainWindow) {
+//             mainWindow.webContents.send('mark-task-done');
+//         }
+//     });
+
+//     globalShortcut.register('Shift+Space', () => {
+//         if (mainWindow) {
+//             mainWindow.webContents.send('mark-task-undo');
+//         }
+//     });
+// });
+
+// app.on('window-all-closed', () => {
+//     if (process.platform !== 'darwin') {
+//         app.quit();
+//     }
+// });
+
+// ipcMain.on('close-app', () => {
+//     mainWindow.close();
+// });
+
+// app.on('will-quit', () => {
+//     globalShortcut.unregisterAll();
+// });

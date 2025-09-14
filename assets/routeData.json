@@ -1,0 +1,2375 @@
+[
+  {
+    "type": "SECTION",
+    "name": "Lumbridge"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "SPAWN AS A WOMAN"
+  },
+  {
+    "coords": {
+      "x": 10927,
+      "y": 5784
+    },
+    "type": "TASK",
+    "text": "Complete Tutorial, Pick excavator"
+  },
+  {
+    "coords": {
+      "x": 10927,
+      "y": 5784
+    },
+    "type": "TASK",
+    "text": "Open skill guide"
+  },
+  {
+    "coords": {
+      "x": 10927,
+      "y": 5784
+    },
+    "type": "TASK",
+    "text": "Turn on the thick skin prayer and let your prayer run out"
+  },
+  {
+    "coords": {
+      "x": 11037,
+      "y": 5786
+    },
+    "type": "TASK",
+    "text": "Pickpocket Man till level 5"
+  },
+  {
+    "coords": {
+      "x": 10927,
+      "y": 5784
+    },
+    "type": "TASK",
+    "text": "Age Hans",
+    "note": "He walks around the lumbridge castle."
+  },
+  {
+    "coords": {
+      "x": 10920,
+      "y": 5825
+    },
+    "type": "TASK",
+    "text": "Get a slayer task from Jacquelyn",
+    "note": "Located in Lumbridge Courtyard.\nCompleting the slayer task is 10 point task."
+  },
+  {
+    "coords": {
+      "x": 10840,
+      "y": 5754
+    },
+    "type": "TASK",
+    "text": "Go into the castle and Start <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Cook%27s_Assistant/Quick_guide\">Cook's Assistant</a>"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Head East, exiting the castle and Play the Organ in the Lumbridge Church"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Ring the Bell on the top most floor of the church"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Look through Father Aereck's Selection of Gravestones"
+  },
+  {
+    "coords": {
+      "x": 11105,
+      "y": 5617
+    },
+    "type": "TASK",
+    "text": "Head to the Graveyard and Complete the quest <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/The_Blood_Pact/Quick_guide\">Blood Pact</a>.",
+    "note": "Destroy the <span class=\"drop\">Kayle's chargebow</span> and <span class=\"drop\"> mainhand Reese's sword</span>"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Talk to the lumbride sage",
+    "note": "East of the castle walls, around or south of the lodestone"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Talk to the Doomsayer about the warning system",
+    "note": "East of the castle walls, around or north of the lodestone"
+  },
+  {
+    "coords": {
+      "x": 11016,
+      "y": 5891
+    },
+    "type": "TASK",
+    "text": "Listen to Musician",
+    "note": "Music Icon on the mini map"
+  },
+  {
+    "coords": {
+      "x": 10811,
+      "y": 6100
+    },
+    "type": "TASK",
+    "text": "North of the general store, steal cake stall until 15 thieving. Sell all stolen items to the general store."
+  },
+  {
+    "coords": {
+      "x": 10874,
+      "y": 5964
+    },
+    "type": "TASK",
+    "text": "Buy and Return a FREE item in general store. Also buy 2 buckets, and 2 pots",
+    "note": "At General Store"
+  },
+  {
+    "coords": {
+      "x": 10712,
+      "y": 6058
+    },
+    "type": "TASK",
+    "text": "Buy 30 Fishing Bait",
+    "note": "At Fishing Store"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Head North to Farmer Fred's and Start <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Sheep_Shearer_(miniquest)\">Sheep Shear</a>"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Pickup the Super Large egg and 1 regular egg (skip the regular if it isn't there)"
+  },
+  {
+    "coords": {
+      "x": 10811,
+      "y": 6320
+    },
+    "type": "TASK",
+    "text": "Kill a chicken, pick up everything and bury the bones"
+  },
+  {
+    "coords": {
+      "x": 10803,
+      "y": 6405
+    },
+    "type": "TASK",
+    "text": "Pick and Eat an Onion",
+    "note": "Behind Farmer Fred's \nGo through the house"
+  },
+  {
+    "coords": {
+      "x": 10597,
+      "y": 6586
+    },
+    "type": "TASK",
+    "text": "Head NW to Beefy Bill and Buy Chef's Hat and 3 redberries",
+    "note": "Cart behind cabbages"
+  },
+  {
+    "coords": {
+      "x": 10647,
+      "y": 6493
+    },
+    "type": "TASK",
+    "text": "Pick 2 cabbages. Eat 1 and keep the other."
+  },
+
+  {
+    "type": "INSTRUCTION",
+    "text": "Only mill for Cook's assistant if you get the easy achievement, if not then grind the other"
+  },
+  {
+    "coords": {
+      "x": 10463,
+      "y": 6392
+    },
+    "type": "TASK",
+    "text": "Pick 2 wheat and Mill for Cook's Assistant",
+    "note": "Make sure to talk to the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Millie_Miller\">miller</a>. You should get\n1 extra fine flour."
+  },
+  {
+    "coords": {
+      "x": 10276,
+      "y": 6572
+    },
+    "type": "TASK",
+    "text": "NW of the Mill, Mine 7 Clay"
+  },
+  {
+    "type": "SECTION",
+    "name": "Draynor &amp; Um"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Activate Draynor Lodestone"
+  },
+  {
+    "coords": {
+      "x": 9992,
+      "y": 6523
+    },
+    "type": "TASK",
+    "text": "Do <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Necromancy!/Quick_guide\">Necromancy</a> tutorial"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Activate Um Lodestone"
+  },
+  {
+    "coords": {
+      "x": 9992,
+      "y": 6523
+    },
+    "type": "TASK",
+    "text": "Conjure a Skeleton at the City of Um Ritual Site"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "TP back to Draynor"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Head West then South and enter the sewers. Kill a Zombie then leave."
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Start <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Vampyre_Slayer/Quick_guide\">Vampyre Slayer</a>, get garlic upstairs (in drawers)"
+  },
+  {
+    "coords": {
+      "x": 9840,
+      "y": 6211
+    },
+    "type": "TASK",
+    "text": "Finish the instructions"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Pick up the cheese upstairs in Aggie's house (skip if not there)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Enter the Draynor Market"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Talk to the Town Crier"
+  },
+  {
+    "coords": {
+      "x": 9896,
+      "y": 6106
+    },
+    "type": "TASK",
+    "text": "Finish the instructions"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Talk to the Wise Old Man about unnecessary quest items in the bank"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Discover what the Wise Old Man is watching through his telescope",
+    "note": "Top Floor"
+  },
+  {
+    "coords": {
+      "x": 9982,
+      "y": 5979
+    },
+    "type": "TASK",
+    "text": "Chop 11 Trees and Burn 10 the Logs. Fletch 1 into <span class=\"drop\">shafts</span>."
+  },
+  {
+    "coords": {
+      "x": 9982,
+      "y": 5979
+    },
+    "type": "TASK",
+    "text": "Chop an <span class=\"drop\">Oak log</span>.",
+    "note": "Ensure 12 woodcutting"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Catch Shrimp to lvl 5 - <span class=\"drop\">Sardines</span> until 15 fishing",
+    "note": "Can Keep some food, they shrimp, sardines and anchovies all heal 200 hp"
+  },
+  {
+    "coords": {
+      "x": 9840,
+      "y": 5859
+    },
+    "type": "TASK",
+    "text": "Catch an Anchovy (keep 1)",
+    "note": "Ensure 20 fishing, 15 cooking"
+  },
+  {
+    "type": "SECTION",
+    "name": "Falador"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Kill a highwayman (skip if busy)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run West Air strike the Air Wizard"
+  },
+  {
+    "coords": {
+      "x": 9212,
+      "y": 6596
+    },
+    "type": "TASK",
+    "text": "Run to Falador"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Kill a duck in the park"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Activate Falador lodestone"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Feed a piece of cheese to the hairdresser's pet chinchompa (on wheel behind door)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Fill a bucket from the pump north of the NW bank, then empty it"
+  },
+  {
+    "coords": {
+      "x": 8880,
+      "y": 7084
+    },
+    "type": "TASK",
+    "text": "Finish Instructions"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Buy a <span class=\"drop\">Wizard Mind Bomb</span> from the Pub"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Start <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/The_Knight%27s_Sword/Quick_guide\">Knight's Sword</a> in the Falador castle courtyard"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Climb to the top of the white knight's castle (West Tower)"
+  },
+  {
+    "coords": {
+      "x": 8923,
+      "y": 6766
+    },
+    "type": "TASK",
+    "text": "Finish Instructions"
+  },
+  {
+    "type": "SECTION",
+    "name": "Taverley / Burthrope"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Lodestone to Fally then run towards Taverley"
+  },
+  {
+    "coords": {
+      "x": 8539,
+      "y": 7899
+    },
+    "type": "TASK",
+    "text": "Complete <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Druidic_Ritual/Quick_guide\">Druidic Ritual</a> (Not the same as osrs)"
+  },
+  {
+    "coords": {
+      "x": 8511,
+      "y": 7490
+    },
+    "type": "TASK",
+    "text": "Go south, Take free stuff at herb shop, make an <span class=\"drop\">attack potion</span>",
+    "note": "Trade Jatix"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Activate Taverley lodestone"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Complete the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Violet_is_Blue/Quick_guide\">Violet is Blue</a> Quest (Quest icon on mountain)",
+    "note": "Use 1 lamp on Farming, Construction and Agility (1k xp lamp)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Complete the <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Violet_is_Blue_Too/Quick_guide\">Voilet is Blue Too</a> Quest",
+    "note": "Use 1 lamp on Herblore, Crafting, Divination (4k xp lamp each)"
+  },
+  {
+    "coords": {
+      "x": 7980,
+      "y": 7714
+    },
+    "type": "TASK",
+    "text": "Finish Quests"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Go to Pub to the east and trade Mess Sergeant Ramsey, buy:\n5 Pot of Flour\n3 Pie Dish\n2 Potatoes\n1 Bowl"
+  },
+  {
+    "coords": {
+      "x": 8269,
+      "y": 7577
+    },
+    "type": "TASK",
+    "text": "Bake 1 <span class=\"drop\">bread </span>",
+    "note": "Click on the sink to make the dough. Don't use a bucket of water on the pot of flour, you will lose the bucket."
+  },
+  {
+    "coords": {
+      "x": 8269,
+      "y": 7577
+    },
+    "type": "TASK",
+    "text": "Cook the <span class=\"drop\">Chicken</span> and 1 potato. Eat the cooked potato"
+  },
+  {
+    "coords": {
+      "x": 8269,
+      "y": 7577
+    },
+    "type": "TASK",
+    "text": "Make a <span class=\"drop\">Stew</span>",
+    "note": "Fill Bowl with Water\nUse Raw Potato on Bowl of Water\nUse Cooked Chicken on Stew\nCook Stew Again"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Make 3 pie shells and add the red berries"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Drop all of the <span class=\"drop\">empty pots</span>"
+  },
+  {
+    "coords": {
+      "x": 8263,
+      "y": 7742
+    },
+    "type": "TASK",
+    "text": "Rake Potato Patch"
+  },
+  {
+    "coords": {
+      "x": 8263,
+      "y": 7742
+    },
+    "type": "TASK",
+    "text": "Buy Potato seeds, plant them",
+    "note": "Farmer has shop next to patch"
+  },
+  {
+    "coords": {
+      "x": 8263,
+      "y": 7742
+    },
+    "type": "TASK",
+    "text": "Compost the weeds"
+  },
+  {
+    "coords": {
+      "x": 8263,
+      "y": 7742
+    },
+    "type": "TASK",
+    "text": "Note the <span class=\"drop\">cabbage</span> on the Tool leprechaun."
+  },
+  {
+    "coords": {
+      "x": 8242,
+      "y": 7811
+    },
+    "type": "TASK",
+    "text": "Pick 5 flax, spin them into <span class=\"drop\">bowstrings</span>"
+  },
+  {
+    "coords": {
+      "x": 8358,
+      "y": 7943
+    },
+    "type": "TASK",
+    "text": "Shear 4 sheep, spin them"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Activate Burthrope lodestone"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Next to magic shop, claim wicked hood",
+    "note": "Talk to Tam McGrubor"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "In magic shop claim talismans, use them on wicked hood"
+  },
+  {
+    "coords": {
+      "x": 8552,
+      "y": 8617
+    },
+    "type": "TASK",
+    "text": "Run North, do 10 agility laps"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Wicked Hood Teleport to Air Altar"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run to SW Varrock mine"
+  },
+  {
+    "coords": {
+      "x": 10596,
+      "y": 6990
+    },
+    "type": "TASK",
+    "text": "Mine 10 copper + 10 tin"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Don't equip the pickaxe"
+  },
+  {
+    "coords": {
+      "x": 10596,
+      "y": 6990
+    },
+    "type": "TASK",
+    "text": "Mine iron ore, have 1 ore in your inventory",
+    "note": "Ensure 20 mining"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Claim rewards from May, roll the die"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Actvate Varrock Lodestone"
+  },
+  {
+    "coords": {
+      "x": 10976,
+      "y": 6995
+    },
+    "type": "TASK",
+    "text": "Kill a Dark Wizard"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Lodestone to Lumbridge"
+  },
+  {
+    "type": "SECTION",
+    "name": "Lumbridge 2"
+  },
+  {
+    "coords": {
+      "x": 10708,
+      "y": 6058
+    },
+    "type": "TASK",
+    "text": "Head to the Fishing Shop and buy all the bait + feathers. Sell the raw anchovy"
+  },
+  {
+    "coords": {
+      "x": 10963,
+      "y": 6066
+    },
+    "type": "TASK",
+    "text": "Smith a <span class=\"drop\">Bronze wire</span>"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Smith 50 Bronze bolts (unf)",
+    "note": "For a future task"
+  },
+  {
+    "coords": {
+      "x": 10963,
+      "y": 6066
+    },
+    "type": "TASK",
+    "text": "Smith 10 <span class=\"drop\">Bronze daggers</span>"
+  },
+  {
+    "coords": {
+      "x": 11104,
+      "y": 6131
+    },
+    "type": "TASK",
+    "text": "Enter the H.A.M. Hidehout",
+    "note": "Pickpocket 1 H.A.M. Member then leave"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Build Lumbridge God Statue (xp on prayer)(if you don't have a regular egg, go north and pick one up)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Fill 1 bucket at Prized Cow Milk (East of river)"
+  },
+  {
+    "coords": {
+      "x": 11182,
+      "y": 6230
+    },
+    "type": "TASK",
+    "text": "Fill 1 bucket at normal Cow Milk"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run SW to Fish Trout and Cook them until 32 cooking (Keep one raw fish)"
+  },
+  {
+    "coords": {
+      "x": 11080,
+      "y": 6032
+    },
+    "type": "TASK",
+    "text": "Catch 10 <span class=\"drop\">Pike</span> and cook them"
+  },
+  {
+    "coords": {
+      "x": 11149,
+      "y": 5958
+    },
+    "type": "TASK",
+    "text": "Kill a goblin, keep its bones"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Enter Al Kharid"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "To the East, Talk to Ali Morrisane until he tells you to talk to Aubury in Varrock"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "North of the Palace, Activate Al Kharid Lodestone"
+  },
+  {
+    "coords": {
+      "x": 11560,
+      "y": 5692
+    },
+    "type": "TASK",
+    "text": "Finish Instructions"
+  },
+  {
+    "coords": {
+      "x": 11100,
+      "y": 5294
+    },
+    "type": "TASK",
+    "text": "Take the bridge to the west, catch 1 <span class=\"drop\">raw shrimp</span>"
+  },
+  {
+    "coords": {
+      "x": 10983,
+      "y": 5225
+    },
+    "type": "TASK",
+    "text": "Prospect and mine 1 Copper in the SE Lumbridge Swamp"
+  },
+  {
+    "coords": {
+      "x": 10975,
+      "y": 5543
+    },
+    "type": "TASK",
+    "text": "Kill Giant Rat, pick up meat"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Cut down a swamp tree and burn the logs, cook rat meat"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "To the West, get a replacement ghost speak amulet"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Search the Shed that leads to Zanaris"
+  },
+  {
+    "coords": {
+      "x": 10656,
+      "y": 5525
+    },
+    "type": "TASK",
+    "text": "Kill a Giant Spider (Just west of Ysondria near the water icon on the map)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Talk to <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Ysondria\">Ysondria</a> at The Nexus"
+  },
+  {
+    "coords": {
+      "x": 10911,
+      "y": 5498
+    },
+    "type": "TASK",
+    "text": "Get a <span class=\"drop\">Charmed Sack </span>from Ysondria and fill it at the Nexus",
+    "note": "when the sack is full use it on the pillar with the red stream.\n If it's not working then move on, it's about the task not the xp. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://youtu.be/crSyO6b3ago?si=j5PMdcxewy70eHA7&amp;t=65\">Video Guide Here</a>"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Unlock t2 relic!"
+  },
+  {
+    "coords": {
+      "x": 10835,
+      "y": 5750
+    },
+    "type": "TASK",
+    "text": "Complete <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Cook%27s_Assistant/Quick_guide\">Cook's Assistant</a>",
+    "note": "Might be able to buy an egg from the Culinaromancer's Chest if you don't have one"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Make Redberry Pies"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Talk to the Duke and aquire anti fire shield (2nd Floor)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Climb the north ladder outside of the bank at the top of the castle"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Raise the flag on the roof of the bank"
+  },
+  {
+    "coords": {
+      "x": 10835,
+      "y": 5750
+    },
+    "type": "TASK",
+    "text": "Bake <span class=\"drop\">Cake</span> on Lumdrige Stove"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Enter Runespan and get 14 RC"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Siphon from a fire essling in runespan (14 rc)"
+  },
+  {
+    "coords": {
+      "x": 9976,
+      "y": 5275
+    },
+    "type": "TASK",
+    "text": "Wicked Hood Teleport to Wizard's Tower (Go down and up if task didnt complete)"
+  },
+
+  {
+    "type": "SECTION",
+    "name": "Barb Villiage + Edgeville"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Wicked Hood Teleport to Air Altar"
+  },
+  {
+    "coords": {
+      "x": 10296,
+      "y": 7604
+    },
+    "type": "TASK",
+    "text": "Head North, Enter Cook's Guild"
+  },
+  {
+    "coords": {
+      "x": 10428,
+      "y": 7693
+    },
+    "type": "TASK",
+    "text": "Claim free clue scroll South of GE by talking to <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Zaida\">Zaida</a>",
+    "note": "Make sure you have 3 soft clay, feathers, and chef's hat"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run West to the Barbarian Village"
+  },
+  {
+    "coords": {
+      "x": 9993,
+      "y": 7494
+    },
+    "type": "TASK",
+    "text": "Catch a <span class=\"drop\">Herring</span>"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Catch a <span class=\"drop\">Trout</span>"
+  },
+  {
+    "coords": {
+      "x": 9809,
+      "y": 7227
+    },
+    "type": "TASK",
+    "text": "Mine 2 Coal outside the village"
+  },
+  {
+    "coords": {
+      "x": 9808,
+      "y": 7397
+    },
+    "type": "TASK",
+    "text": "Enter the stronghold and collect the 10k"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Activate Edgeville Lodestone"
+  },
+  {
+    "coords": {
+      "x": 9719,
+      "y": 8059
+    },
+    "type": "TASK",
+    "text": "Kill a mugger (skip if busy)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run East and talk to Vala about the wilderness history"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "View the wilderness death list noticeboard"
+  },
+  {
+    "coords": {
+      "x": 10156,
+      "y": 8167
+    },
+    "type": "TASK",
+    "text": "Finish Instructions"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run north, talk to Zamorakian Mage to the start <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Enter_the_Abyss_(miniquest)/Quick_guide\">Enter The Abyss Mini Quest</a>"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Enter Rift to NE, climb rope"
+  },
+  {
+    "coords": {
+      "x": 10277,
+      "y": 9134
+    },
+    "type": "TASK",
+    "text": "Activate Wilderness Lodestone"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Teleport to Edgeville"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Enter the Edgeville dungeon then leave"
+  },
+  {
+    "coords": {
+      "x": 9927,
+      "y": 7787
+    },
+    "type": "TASK",
+    "text": "Use wilderness lever 3 times (should end in the wilderness)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Go to Mage Bank, buy some law, cosmic, nature rune, each elemental rune"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Lodestone TP to Varrock"
+  },
+  {
+    "coords": {
+      "x": 9879,
+      "y": 11691
+    },
+    "type": "TASK",
+    "text": "Use the bank"
+  },
+  {
+    "type": "SECTION",
+    "name": "Varrock"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Talk to Dr Harlow, buy 2 beers, talk again",
+    "note": "Keep 1 for later"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Access Thessalia's Makeover",
+    "note": "In clothing shop"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Buy a Pair of Leather Gloves"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Buy Batwing Wand and Book (t30 weapons) at staff shop"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Buy a <span class=\"drop\">newspaper</span> in varrock square (Benny)"
+  },
+  {
+    "coords": {
+      "x": 10856,
+      "y": 7466
+    },
+    "type": "TASK",
+    "text": "Finish Instructions"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Talk to the Zammy mage in the SE church to start Enter the Abyss quest"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Talk to Aubury about Ali Morrisane"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Tele to the rune ess mine and back"
+  },
+  {
+    "coords": {
+      "x": 11172,
+      "y": 7183
+    },
+    "type": "TASK",
+    "text": "Finish Instructions"
+  },
+  {
+    "coords": {
+      "x": 10856,
+      "y": 7466
+    },
+    "type": "TASK",
+    "text": "Give the bones to a stray dog"
+  },
+  {
+    "coords": {
+      "x": 11311,
+      "y": 7346
+    },
+    "type": "TASK",
+    "text": "In east varrock, steal tea from stall 2 times"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Complete the Natural History Quiz in the Museum basement"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Move your POH Taverley"
+  },
+  {
+    "coords": {
+      "x": 11187,
+      "y": 7883
+    },
+    "type": "TASK",
+    "text": "Upstairs in church, give tea to Elsie"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Start <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Demon_Slayer/Quick_guide#The_trials\">Demon Slayer</a> (do as much of the quest as you can in the church)",
+    "note": "We will finish the quest later"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Talk to Reldo in Varrock library about Knight's Sword"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Climb NW Staircase to the top"
+  },
+  {
+    "coords": {
+      "x": 9977,
+      "y": 5272
+    },
+    "type": "TASK",
+    "text": "Teleport to Wizards Tower Via Wicked Hood",
+    "note": "Go down and up beam if you didnt get a task"
+  },
+  {
+    "type": "SECTION",
+    "name": "Draynor 2"
+  },
+  {
+    "coords": {
+      "x": 9977,
+      "y": 5272
+    },
+    "type": "TASK",
+    "text": "Go down 2 floors, taunt the lesser demon and then Kill it. ( skip if busy)"
+  },
+  {
+    "coords": {
+      "x": 9977,
+      "y": 5272
+    },
+    "type": "TASK",
+    "text": "Go up 1 floor, Teleport Archmage Sedridor"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Teleport to Wizards Tower Via Wicked Hood, and leave the tower"
+  },
+  {
+    "coords": {
+      "x": 10341,
+      "y": 5208
+    },
+    "type": "TASK",
+    "text": "Go to SW Lumby mine, mine iron ore"
+  },
+  {
+    "coords": {
+      "x": 10121,
+      "y": 5759
+    },
+    "type": "TASK",
+    "text": "Harvest memory 10x, turn to energy",
+    "note": "Divination icon on map"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Bank, retrieve 3 clay"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Wet clay at waterpump"
+  },
+  {
+    "coords": {
+      "x": 9957,
+      "y": 6096
+    },
+    "type": "TASK",
+    "text": "Run North to Draynor, Have Ned make a rope"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Create a clay ring on the Draynor pottery wheel, fire it in the oven"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Make a bowl and fire it"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Make a pot on the Potter's wheel and fire it"
+  },
+  {
+    "coords": {
+      "x": 9885,
+      "y": 6306
+    },
+    "type": "TASK",
+    "text": "Craft the above items"
+  },
+  {
+    "coords": {
+      "x": 10075,
+      "y": 6897
+    },
+    "type": "TASK",
+    "text": "Kill Vampire for <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Vampyre_Slayer/Quick_guide\">Vampyre Slayer</a>"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Lodestone to Lumbridge"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Go into the Church and have Father Aerek bless the ring"
+  },
+  {
+    "coords": {
+      "x": 11042,
+      "y": 5784
+    },
+    "type": "TASK",
+    "text": "Completed beginner lumbridge tasks",
+    "note": "Talk to Explorer Jack in Lumbridge for rewards"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Lodestone to Draynor"
+  },
+  {
+    "coords": {
+      "x": 9946,
+      "y": 6181
+    },
+    "type": "TASK",
+    "text": "Run south to Morgan to turn in Vampire Slayer and give him the ring",
+    "note": "Put lamp in Magic"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run West to Port Sarim and Activate the Lodestone"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run South to the church and restore some prayer points"
+  },
+  {
+    "coords": {
+      "x": 9135,
+      "y": 5194
+    },
+    "type": "TASK",
+    "text": "Keep going South and talk to Thrugo to continue <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/The_Knight%27s_Sword/Quick_guide#Getting_started\">Knight's Sword</a>"
+  },
+  {
+    "type": "SECTION",
+    "name": "Falador 2"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Lodestone to Falador"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run South to the Castle and progress <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/The_Knight%27s_Sword/Quick_guide#The_portrait\">Knight's Sword Quest</a>"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Enter and leave the mole lair"
+  },
+  {
+    "coords": {
+      "x": 9140,
+      "y": 7037
+    },
+    "type": "TASK",
+    "text": "Sit on the Bench with Sir Tiffy"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Talk to Party pete"
+  },
+  {
+    "coords": {
+      "x": 9523,
+      "y": 7043
+    },
+    "type": "TASK",
+    "text": "Dance in the party room"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Loadstone to Port Sarim"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run South and enter the Asgarnia Ice Cave"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Mine your 2 Blurite ore and leave"
+  },
+  {
+    "coords": {
+      "x": 9151,
+      "y": 5188
+    },
+    "type": "TASK",
+    "text": "Talk to Thurgo to continue Knight's Sword"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Lodestone back to Falador"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Talk to the Squire to finish Knight's Sword"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run to the East bank and unequip and deposit everything"
+  },
+  {
+    "coords": {
+      "x": 9138,
+      "y": 7040
+    },
+    "type": "TASK",
+    "text": "Complete <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Recruitment_Drive/Quick_guide\">Recruitment Drive\n</a>Afterwards, get the following out of your bank:\nMagic gear, Excavator, Wicked Hood",
+    "note": "6k Prayer/Herb/Agility"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run to the West bank and gear up"
+  },
+  {
+    "coords": {
+      "x": 8540,
+      "y": 6868
+    },
+    "type": "TASK",
+    "text": "Exit the city via the west wall shortcut start and complete <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Witch%27s_House/Quick_guide\">Witch's House</a>"
+  },
+  {
+    "type": "SECTION",
+    "name": " - Digsite"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "TP to Al Kharid"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run East and buy Tiara Mould, Sickle Mould, Holy Mould, Needle and all the thread. (Add the moulds to the toolbelt by rick clickng the mould)"
+  },
+  {
+    "coords": {
+      "x": 11559,
+      "y": 5698
+    },
+    "type": "TASK",
+    "text": "North West, talk to Ali Morrisane and buy some runes from him",
+    "note": "There is a runedoku solver on <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runeapps.org/alt1\">Alt1</a> (rs3's addon to the jagex client)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run North to the Mine and the common gem rocks until 20 crafting"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Mine 1 Silver Ore"
+  },
+
+  {
+    "coords": {
+      "x": 11506,
+      "y": 6504
+    },
+    "type": "TASK",
+    "text": "Head North West, leaving Al Kharid towards the agility shortcut, use it twice"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Travel NE to pick 3 cavada berries near varrock mine"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Chop down a dead tree next to the SE wall/mine of Varrock"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Head to the Digsite"
+  },
+  {
+    "coords": {
+      "x": 11769,
+      "y": 7058
+    },
+    "type": "TASK",
+    "text": "Complete <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Archaeology_tutorial\">Archeology Tutorial</a>",
+    "note": "Digsite"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Complete <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/The_Dig_Site\">The Dig Site</a>"
+  },
+  {
+    "coords": {
+      "x": 12224,
+      "y": 7049
+    },
+    "type": "TASK",
+    "text": "Pan for Jade"
+  },
+  {
+    "coords": {
+      "x": 12260,
+      "y": 7370
+    },
+    "type": "TASK",
+    "text": "Sail to Anachronia (Boat east of digsite)"
+  },
+  {
+    "coords": {
+      "x": 16830,
+      "y": 14610
+    },
+    "type": "TASK",
+    "text": "Complete <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Anachronia_base_camp_tutorial/Quick_guide\">Anachronia Base Camp Tutorial</a>"
+  },
+  {
+    "coords": {
+      "x": 18005,
+      "y": 15553
+    },
+    "type": "TASK",
+    "text": "Run NE to Herby Werby and surge under the spine"
+  },
+  {
+    "coords": {
+      "x": 18286,
+      "y": 15542
+    },
+    "type": "TASK",
+    "text": "Obtain 100 potent herbs from herby werby"
+  },
+  {
+    "coords": {
+      "x": 16830,
+      "y": 14609
+    },
+    "type": "TASK",
+    "text": "Run back to the Anachronia Bas Camp, build the lodestone and activate it",
+    "note": "You may need to wait to have the materials"
+  },
+  {
+    "coords": {
+      "x": 0,
+      "y": 0
+    },
+    "type": "TASK",
+    "text": "Teleport Using Law Runes"
+  },
+  {
+    "type": "SECTION",
+    "name": " - Karamja"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Take the boat back to port sarim then back to karamja"
+  },
+  {
+    "coords": {
+      "x": 8687,
+      "y": 5237
+    },
+    "type": "TASK",
+    "text": "Fill Crate with bananas and collect the 30 gp"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Use the fishing spots north of the banana plantation"
+  },
+  {
+    "coords": {
+      "x": 7973,
+      "y": 5338
+    },
+    "type": "TASK",
+    "text": "Kill an imp and scatter its ashes near the volcano (Skip if there isn't one)"
+  },
+  {
+    "coords": {
+      "x": 7922,
+      "y": 5167
+    },
+    "type": "TASK",
+    "text": "South of the volcano,(Near the water) Have Stiles Note a fish"
+  },
+  {
+    "coords": {
+      "x": 7910,
+      "y": 5408
+    },
+    "type": "TASK",
+    "text": "Enter the volcano and kill a tzhaar"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Enter the fight cave then leave"
+  },
+  {
+    "coords": {
+      "x": 7623,
+      "y": 5573
+    },
+    "type": "TASK",
+    "text": "Claim a ticket from Brimhaven Agility Arena"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Take the boat to ardy and back"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run west and use the rope swing"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Swing back, head NE and mine 1 gold ore"
+  },
+  {
+    "coords": {
+      "x": 7211,
+      "y": 5458
+    },
+    "type": "TASK",
+    "text": "Pick a pineapple (Near POH Portal)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Activate lodestone"
+  },
+  {
+    "coords": {
+      "x": 7105,
+      "y": 5420
+    },
+    "type": "TASK",
+    "text": "Kill a Snake"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Head South to the General Store"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Buy 3 anti poisons, papyrus, charcoal, candle, 2 rope, 1 empty vial"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Go into the Village and talk to Trufitus to start <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Jungle_Potion/Quick_guide\">Jungle Potion</a>"
+  },
+  {
+    "coords": {
+      "x": 7596,
+      "y": 4722
+    },
+    "type": "TASK",
+    "text": "Finish Instructions"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Head North and find a seaweed spawn"
+  },
+  {
+    "coords": {
+      "x": 7217,
+      "y": 5061
+    },
+    "type": "TASK",
+    "text": "Pick up 5 seaweed (pick up and drop repeatedly)"
+  },
+  {
+    "coords": {
+      "x": 8144,
+      "y": 4980
+    },
+    "type": "TASK",
+    "text": "Head East to the Palm trees and collect Ardrigal"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Enter the cave and kill a Jogre"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Search the Walls to the south for Rogue's Purse"
+  },
+  {
+    "coords": {
+      "x": 7756,
+      "y": 4980
+    },
+    "type": "TASK",
+    "text": "Run West to the Cave with Jogres"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Search the Green Colored rocks for Volencia Moss"
+  },
+  {
+    "coords": {
+      "x": 7942,
+      "y": 4318
+    },
+    "type": "TASK",
+    "text": "Leave the cave, run South to the mine"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Head West to the Southern side of the village"
+  },
+  {
+    "coords": {
+      "x": 7474,
+      "y": 4345
+    },
+    "type": "TASK",
+    "text": "Search the scorched earth near the fires for Sito Foil"
+  },
+  {
+    "coords": {
+      "x": 7260,
+      "y": 4345
+    },
+    "type": "TASK",
+    "text": "Run West to the marshy jungle vines and search them for Snake Weed"
+  },
+  {
+    "coords": {
+      "x": 7467,
+      "y": 3863
+    },
+    "type": "TASK",
+    "text": "Head SW to Cairn Isle"
+  },
+  {
+    "coords": {
+      "x": 7620,
+      "y": 5569
+    },
+    "type": "TASK",
+    "text": "Karamja Easy Diary Completed",
+    "note": "Talk to Pirate Jackie the Fruit for rewards"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Lodestone to Karamja"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run South to turn in Jungle Potion then Lodestone back to Karamja again."
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Lodestone to Karamja"
+  },
+  {
+    "coords": {
+      "x": 7100,
+      "y": 5249
+    },
+    "type": "TASK",
+    "text": "Enter the Hardwood Grove in Tai Bwo Wannai"
+  },
+  {
+    "coords": {
+      "x": 7100,
+      "y": 5249
+    },
+    "type": "TASK",
+    "text": "Enter Brimhaven Dungeon"
+  },
+  {
+    "coords": {
+      "x": 7100,
+      "y": 5249
+    },
+    "type": "TASK",
+    "text": "Use the jumping stones to cross the spiky pit"
+  },
+  {
+    "coords": {
+      "x": 7100,
+      "y": 5249
+    },
+    "type": "TASK",
+    "text": "Kill a Greater Demon"
+  },
+  {
+    "type": "SECTION",
+    "name": " - Ardougne"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Lodestone to Karamja Lodestone"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Pay Fare Customs Officer"
+  },
+  {
+    "coords": {
+      "x": 7236,
+      "y": 5919
+    },
+    "type": "TASK",
+    "text": "Finish Instructions"
+  },
+  {
+    "coords": {
+      "x": 6450,
+      "y": 6496
+    },
+    "type": "TASK",
+    "text": "Steal 1 Silk"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Fill all 6 beehives with Woad Leaves (North of blue building)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Activate Ardougne Lodestone"
+  },
+  {
+    "coords": {
+      "x": 6311,
+      "y": 6860
+    },
+    "type": "TASK",
+    "text": "Do <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Player-owned_farm_tutorial/Quick_guide\">Player Owned Farms tutorial</a> (POF)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Do <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Fight_Arena/Quick_guide#Getting_started\">Fight Arena</a>"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Do <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Tree_Gnome_Village/Quick_guide\">Tree Gnome Village</a>"
+  },
+  {
+    "coords": {
+      "x": 5421,
+      "y": 5679
+    },
+    "type": "TASK",
+    "text": "Run South to Tree Gnome Village, kill a tortoise with a rider"
+  },
+
+  {
+    "type": "SECTION",
+    "name": " - Gnome Stronghold"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Use Spirit Tree to go to Grand Tree"
+  },
+  {
+    "coords": {
+      "x": 4949,
+      "y": 7530
+    },
+    "type": "TASK",
+    "text": "1 Lap of the agility course"
+  },
+  {
+    "coords": {
+      "x": 4401,
+      "y": 7391
+    },
+    "type": "TASK",
+    "text": "Tele to the Rune Essence mine via Brimstail and come back"
+  },
+  {
+    "coords": {
+      "x": 4876,
+      "y": 7993
+    },
+    "type": "TASK",
+    "text": "Start <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/The_Grand_Tree/Quick_guide\">Grand Tree</a> and complete it."
+  },
+  {
+    "type": "SECTION",
+    "name": " - Forinthry and Morytania"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Teleport to Varrock Spell, go to Varrock Palace"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Do <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/New_Foundations/Quick_guide#Overview\">New Foundations</a>",
+    "note": "All items purchasable during quest"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Build the Fort Forinthry Lodestone"
+  },
+  {
+    "coords": {
+      "x": 11450,
+      "y": 8482
+    },
+    "type": "TASK",
+    "text": "Give Bill a beer"
+  },
+  {
+    "coords": {
+      "x": 11415,
+      "y": 8447
+    },
+    "type": "TASK",
+    "text": "Make a plank in the sawmill (workshop)"
+  },
+  {
+    "coords": {
+      "x": 0,
+      "y": 0
+    },
+    "type": "TASK",
+    "text": "Go to Morytania light barrier, kill the Ghoul"
+  },
+  {
+    "coords": {
+      "x": 11428,
+      "y": 8472
+    },
+    "type": "TASK",
+    "text": "Use the bank in the workshop"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Head East to the limestone mine and mine a piece of limestone"
+  },
+  {
+    "coords": {
+      "x": 12545,
+      "y": 8384
+    },
+    "type": "TASK",
+    "text": "Go north into the slayer tower and kill 1 crawling hand"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Keep going east into Canafis (you can enter w/o the quest)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Run South into the swamp"
+  },
+  {
+    "coords": {
+      "x": 12656,
+      "y": 6394
+    },
+    "type": "TASK",
+    "text": "To the South East, Kill a snail and craft a snelm"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Exit the Swamp to the North and Run East into Canifis"
+  },
+  {
+    "coords": {
+      "x": 13131,
+      "y": 7933
+    },
+    "type": "TASK",
+    "text": "Kill a werewolf"
+  },
+  {
+    "coords": {
+      "x": 13292,
+      "y": 8159
+    },
+    "type": "TASK",
+    "text": "Follow the path North East and buld the Lodestone"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Just East of the Lodestone, Pick 1 nettle"
+  },
+  {
+    "coords": {
+      "x": 13574,
+      "y": 8088
+    },
+    "type": "TASK",
+    "text": "Keep going East and kill 5 feral vampyres (can be safespotted on mushrooms)"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Lodestone to Port Sarim then take the Charter ship to Port Phasmatys"
+  },
+  {
+    "coords": {
+      "x": 14745,
+      "y": 7933
+    },
+    "type": "TASK",
+    "text": "Run South to the small dock and travel to Dragontooth Island then back to Port Phasmatys"
+  },
+  {
+    "coords": {
+      "x": 14580,
+      "y": 8104
+    },
+    "type": "TASK",
+    "text": "Start and Complete <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Ghosts_Ahoy/Quick_guide\">Ghost Ahoy</a> Quest"
+  },
+  {
+    "coords": {
+      "x": 14433,
+      "y": 8191
+    },
+    "type": "TASK",
+    "text": "Teleport using the Ectophial"
+  },
+  {
+    "coords": {
+      "x": 14361,
+      "y": 7921
+    },
+    "type": "TASK",
+    "text": "Enter Port Phasmatys through the West gate"
+  },
+  {
+    "type": "SECTION",
+    "name": " - Lumbridge 3"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Lodestone to Lumbridge"
+  },
+  {
+    "coords": {
+      "x": 10960,
+      "y": 6063
+    },
+    "type": "TASK",
+    "text": "Smelt a Steel bar in the Lumbridge Furnace",
+    "note": "20 smithing"
+  },
+  {
+    "coords": {
+      "x": 10793,
+      "y": 6339
+    },
+    "type": "TASK",
+    "text": "Churn some butter",
+    "note": "38 cooking + bucket of milk"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Burn 25 Willow Logs",
+    "note": "30 Firemaking"
+  },
+  {
+    "coords": {
+      "x": 11042,
+      "y": 5888
+    },
+    "type": "TASK",
+    "text": "Chop a Willow Tree East of Lumbridge Castle",
+    "note": "20 Woodcutting"
+  },
+  {
+    "type": "SECTION",
+    "name": " - Post Route Quests"
+  },
+  {
+    "coords": {
+      "x": 7257,
+      "y": 8145
+    },
+    "type": "TASK",
+    "text": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Merlin%27s_Crystal/Quick_guide\">Merlin's Crystal</a>",
+    "note": "Prereq + Excalibur"
+  },
+  {
+    "coords": {
+      "x": 7257,
+      "y": 8145
+    },
+    "type": "TASK",
+    "text": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Holy_Grail/Quick_guide\">Holy Grail</a>",
+    "note": "11,000 Prayer\n15,300 Defence"
+  },
+  {
+    "coords": {
+      "x": 6303,
+      "y": 7875
+    },
+    "type": "TASK",
+    "text": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/You_Are_It/Quick_guide\">You Are It</a> + <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Necklace_trinket\">Necklace Trinket</a>",
+    "note": "40k Dungeoneering"
+  },
+  {
+    "coords": {
+      "x": 9992,
+      "y": 6520
+    },
+    "type": "TASK",
+    "text": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Soul_Searching/Quick_guide\">Soul Searching</a>",
+    "note": "Access to Gate of Elidinis after Tier 4"
+  },
+  {
+    "coords": {
+      "x": 12707,
+      "y": 6091
+    },
+    "type": "TASK",
+    "text": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Haunted_Mine#Rewards\">Haunted Mine</a>",
+    "note": "22,000 Strength experience"
+  },
+  {
+    "type": "TASK",
+    "text": "<a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://runescape.wiki/w/Lair_of_Tarn_Razorlor_(miniquest)#Rewards\">Tarn's Lair</a>",
+    "note": "5,000 Slayer + Salve(e)"
+  },
+  {
+    "type": "SECTION",
+    "name": "Gear Equiping Tasks"
+  },
+  {
+    "coords": {
+      "x": 12707,
+      "y": 6091
+    },
+    "type": "TASK",
+    "text": "Teleport to Varrock, At Horvik's armor shop buy a full set of each of the armors: \nIron - 13,790\nSteel - 18,370\nMithril - 27,540\nAdamant - 36,710\nTotal Price - 96,410\n(Full Helm, Platebody, Platelegs, Gauntlets, and Boots)",
+    "note": "*Try just Helm/Top/Bottom first, then gloves + boots and shield if needed*"
+  },
+  {
+    "coords": {
+      "x": 12707,
+      "y": 6091
+    },
+    "type": "TASK",
+    "text": "Equip a Full set of Green d'hide\nLowe's Shop in Varrock\nTotal Price: 20,600 (31,000 if shield is required)"
+  },
+  {
+    "coords": {
+      "x": 12707,
+      "y": 6091
+    },
+    "type": "TASK",
+    "text": "Equip a Full set of Rune:\nPlatebody from: Oziach - 41,680\nRest of the set from: Champion's Guild - 50,030\nTotal Price - 91,710"
+  },
+  {
+    "coords": {
+      "x": 12707,
+      "y": 6091
+    },
+    "type": "TASK",
+    "text": "Equip a Full set of Blue d'hide\nValain's shop in the champion's guild\nBody located at Oziach\nTotal Price: 24,000 (36,480 if shield is required)"
+  },
+  {
+    "coords": {
+      "x": 12707,
+      "y": 6091
+    },
+    "type": "TASK",
+    "text": "Equip a Full set of Mystic Robes\nMarvellous Mysticism shop in the champion's guild\nBody located at Oziach\nTotal Price: 35,000 (50,000 if shield is required)"
+  },
+  {
+    "coords": {
+      "x": 12707,
+      "y": 6091
+    },
+    "type": "TASK",
+    "text": "Buy and Equip full Imphide Armor\nBuy full Spidersilk armor\nBuy full Batwing"
+  },
+  {
+    "coords": {
+      "x": 12707,
+      "y": 6091
+    },
+    "type": "TASK",
+    "text": "Buy and Equip a black chainbody from Falador shop"
+  },
+  {
+    "type": "SECTION",
+    "name": "Prifddinas/Lletya"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Teleport Relic to Morvran (or Fairy's Flight Tele to Priff)"
+  },
+  {
+    "coords": {
+      "x": 2821,
+      "y": 6923
+    },
+    "type": "TASK",
+    "text": "Run to the middle of the city and activate the lodestone"
+  },
+  {
+    "coords": {
+      "x": 2887,
+      "y": 6932
+    },
+    "type": "TASK",
+    "text": "Go East and Climb the stairs up and back down"
+  },
+  {
+    "coords": {
+      "x": 2744,
+      "y": 6998
+    },
+    "type": "TASK",
+    "text": "Go West and burn a log on the bonfire"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "If you have Fairy's Flight, teleport to Lletya"
+  },
+  {
+    "coords": {
+      "x": 3971,
+      "y": 5343
+    },
+    "type": "TASK",
+    "text": "Go to access and close the bank"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Climb down the stairs and buy 3 of each Red, Blue and Yellow Dyes"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "South, in the Range shop, buy 1 oak shield"
+  },
+  {
+    "coords": {
+      "x": 3846,
+      "y": 5408
+    },
+    "type": "TASK",
+    "text": "Run West, go up the stairs and restore your prayer"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Leave Lletya to the west, go past the tree entrance"
+  },
+  {
+    "coords": {
+      "x": 3486,
+      "y": 5238
+    },
+    "type": "TASK",
+    "text": "Just to the South kill a rabbit and cook it's flesh"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Continue NW over the tripwire"
+  },
+  {
+    "coords": {
+      "x": 3204,
+      "y": 5236
+    },
+    "type": "TASK",
+    "text": "Go South jumping over the leaves and continue on to activate the lodestone"
+  },
+  {
+    "type": "SECTION",
+    "text": "Section Extra - General Tasks"
+  },
+  {
+    "coords": {
+      "x": 10930,
+      "y": 5785
+    },
+    "type": "TASK",
+    "text": "combat lvl 50"
+  },
+  {
+    "coords": {
+      "x": 10930,
+      "y": 5785
+    },
+    "type": "TASK",
+    "text": "base lvl 5 in all non invention skills"
+  },
+  {
+    "coords": {
+      "x": 10930,
+      "y": 5785
+    },
+    "type": "TASK",
+    "text": "base lvl 10 in all non invention skills"
+  },
+  {
+    "coords": {
+      "x": 10930,
+      "y": 5785
+    },
+    "type": "TASK",
+    "text": "base lvl 20 in all non invention skills"
+  },
+  {
+    "coords": {
+      "x": 10930,
+      "y": 5785
+    },
+    "type": "TASK",
+    "text": "base lvl 30 in all non invention skills"
+  },
+  {
+    "coords": {
+      "x": 10930,
+      "y": 5785
+    },
+    "type": "TASK",
+    "text": "reach lvl 60 in any skill"
+  },
+  {
+    "coords": {
+      "x": 10930,
+      "y": 5785
+    },
+    "type": "TASK",
+    "text": "total lvl 500"
+  },
+  {
+    "type": "SECTION",
+    "text": "Section - Achievment Diary Tasks"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "Easy Lumbridge - Talk to Bob in Lumby for rewards"
+  },
+  {
+    "coords": {
+      "x": 10474,
+      "y": 5507
+    },
+    "type": "TASK",
+    "text": "Craft a water rune"
+  },
+  {
+    "type": "SECTION",
+    "name": "Farming Relic Unlocked"
+  },
+  {
+    "coords": {
+      "x": 10932,
+      "y": 5782
+    },
+    "type": "TASK",
+    "text": "Plant seeds in any patch 10 times"
+  },
+  {
+    "coords": {
+      "x": 10932,
+      "y": 5782
+    },
+    "type": "TASK",
+    "text": "Plant seeds in any patch 100 times"
+  },
+  {
+    "coords": {
+      "x": 10932,
+      "y": 5782
+    },
+    "type": "TASK",
+    "text": "Harvest Marrentill",
+    "note": "9 Farming"
+  },
+  {
+    "coords": {
+      "x": 10932,
+      "y": 5782
+    },
+    "type": "TASK",
+    "text": "Harvest 10 Tarromin",
+    "note": "19 Farming"
+  },
+  {
+    "coords": {
+      "x": 11752,
+      "y": 5975
+    },
+    "type": "TASK",
+    "text": "Harvest a Rose at Het's Oasis",
+    "note": "30 Farming - no items needed. <a target=\"_blank\" rel=\"noopener noreferrer\" href=\"https://www.youtube.com/watch?v=t3GBzwa6QuM\">Video guide </a>"
+  },
+  {
+    "coords": {
+      "x": 7282,
+      "y": 5726
+    },
+    "type": "TASK",
+    "text": "Grow a Banana tree on Karamja",
+    "note": "33 Farming"
+  },
+  {
+    "coords": {
+      "x": 2898,
+      "y": 7512
+    },
+    "type": "TASK",
+    "text": "Papaya in Lletya",
+    "note": "57 Farming"
+  },
+  {
+    "type": "SECTION",
+    "name": "Mining Tasks"
+  },
+  {
+    "coords": {
+      "x": 11452,
+      "y": 6947
+    },
+    "type": "TASK",
+    "text": "Mine 20 Mithril",
+    "note": "30 mining"
+  },
+  {
+    "coords": {
+      "x": 11452,
+      "y": 6947
+    },
+    "type": "TASK",
+    "text": "Mine 30 Adamant",
+    "note": "40 mining"
+  },
+  {
+    "coords": {
+      "x": 9308,
+      "y": 6746
+    },
+    "type": "TASK",
+    "text": "Mine 40 Runite",
+    "note": "50 mining"
+  },
+  {
+    "coords": {
+      "x": 9308,
+      "y": 6746
+    },
+    "type": "TASK",
+    "text": "Mine some ore with a rune pickaxe",
+    "note": "50 mining"
+  },
+  {
+    "coords": {
+      "x": 9308,
+      "y": 6749
+    },
+    "type": "TASK",
+    "text": "Open 20 Igneous Geodes (obtained from T60+ ores)"
+  },
+  {
+    "coords": {
+      "x": 9308,
+      "y": 6749
+    },
+    "type": "TASK",
+    "text": "Mine Orichalcite in the Mining Guild",
+    "note": "60 mining"
+  },
+  {
+    "coords": {
+      "x": 2315,
+      "y": 6848
+    },
+    "type": "TASK",
+    "text": "Mine 200 Soft Clay in Prifddinas",
+    "note": "75 Mining"
+  },
+  {
+    "coords": {
+      "x": 7945,
+      "y": 4321
+    },
+    "type": "TASK",
+    "text": "Mine Drakolith in the Mine East of Tai Bwo Wannai Village"
+  },
+  {
+    "coords": {
+      "x": 7749,
+      "y": 4036
+    },
+    "type": "TASK",
+    "text": "Mine a Ruby from a Gem Rock in Shilo Village"
+  },
+  {
+    "type": "SECTION",
+    "name": "Wilderness"
+  },
+  {
+    "coords": {
+      "x": 10962,
+      "y": 9505
+    },
+    "type": "TASK",
+    "text": "Go north, jump over wall",
+    "note": "*collect 10 bones while running around the wildy*"
+  },
+  {
+    "coords": {
+      "x": 10560,
+      "y": 8717
+    },
+    "type": "TASK",
+    "text": "Enter the chaos tunnels and then exit"
+  },
+  {
+    "coords": {
+      "x": 10244,
+      "y": 9721
+    },
+    "type": "TASK",
+    "text": "Head north into the crater and kill a black unicorn"
+  },
+  {
+    "coords": {
+      "x": 9010,
+      "y": 8970
+    },
+    "type": "TASK",
+    "text": "Run west past the black knight's fortress, kill 5 green dragons and pick up their bones"
+  },
+  {
+    "coords": {
+      "x": 11082,
+      "y": 8905
+    },
+    "type": "TASK",
+    "text": "Run east to the chaos altar and use the 5 dragon bones on it"
+  },
+  {
+    "type": "INSTRUCTION",
+    "text": "View your bank in the wilderness via a cape seller"
+  },
+  {
+    "coords": {
+      "x": 11497,
+      "y": 8770
+    },
+    "type": "TASK",
+    "text": "Head east and reach a score of 10 using the strange switches"
+  },
+  {
+    "coords": {
+      "x": 11651,
+      "y": 9132
+    },
+    "type": "TASK",
+    "text": "Head east and reach a score of 10 using the strange switches"
+  },
+  {
+    "coords": {
+      "x": 9856,
+      "y": 8103
+    },
+    "type": "TASK",
+    "text": "Completed Wilderness Easy Achievements",
+    "note": "Talk to Mr Ex in Edgeville for rewards"
+  }
+]
