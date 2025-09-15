@@ -1,3 +1,4 @@
+
 let currentMarker = null;
 
 const map = L.map("map", {
@@ -7,34 +8,36 @@ const map = L.map("map", {
   minZoom: -2,
 });
 
+const fullWidth = 19456;
+const fullHeight = 16896;
+
+const xCuts = [0, 6485, 12970, 19456];
+const yCuts = [0, 5632, 11264, 16896];
+
 const bounds = [
   [0, 0],
-  [16896, 19456],
+  [fullHeight, fullWidth],
 ];
-L.imageOverlay("./assets/rs3.avif", bounds, {
-  className: "pixelated",
-}).addTo(map);
+
+for (let row = 0; row < 3; row++) {
+  for (let col = 0; col < 3; col++) {
+    const yTop = yCuts[3 - row - 1];
+    const yBottom = yCuts[3 - row];
+    const xLeft = xCuts[col];
+    const xRight = xCuts[col + 1];
+
+    const tileBounds = [
+      [yTop, xLeft],
+      [yBottom, xRight],
+    ];
+
+    const url = `./assets/rs3_tiles_png/tile_${row}_${col}.avif`;
+    L.imageOverlay(url, tileBounds, { className: "pixelated" }).addTo(map);
+  }
+}
 
 map.fitBounds(bounds);
 map.setMaxBounds(bounds);
-
-map.on("click", function (e) {
-  const coords = {
-    x: Math.round(e.latlng.lng),
-    y: Math.round(e.latlng.lat),
-  };
-
-  const text = `"coords": {\n  "x": ${coords.x},\n  "y": ${coords.y}\n},`;
-
-  navigator.clipboard.writeText(text).then(
-    () => {
-      console.log("Copied to clipboard:", text);
-    },
-    (err) => {
-      console.error("Clipboard error:", err);
-    }
-  );
-});
 
 function updateTaskMarker(task) {
   if (currentMarker) {
