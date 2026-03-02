@@ -1,3 +1,4 @@
+
 let currentMarker = null;
 
 const map = L.map("map", {
@@ -7,34 +8,36 @@ const map = L.map("map", {
   minZoom: -2,
 });
 
+const fullWidth = 19456;
+const fullHeight = 16896;
+
+const xCuts = [0, 6485, 12970, 19456];
+const yCuts = [0, 5632, 11264, 16896];
+
 const bounds = [
   [0, 0],
-  [16896, 19456],
+  [fullHeight, fullWidth],
 ];
-L.imageOverlay("./assets/rs3.avif", bounds, {
-  className: "pixelated",
-}).addTo(map);
+
+for (let row = 0; row < 3; row++) {
+  for (let col = 0; col < 3; col++) {
+    const yTop = yCuts[3 - row - 1];
+    const yBottom = yCuts[3 - row];
+    const xLeft = xCuts[col];
+    const xRight = xCuts[col + 1];
+
+    const tileBounds = [
+      [yTop, xLeft],
+      [yBottom, xRight],
+    ];
+
+    const url = `./assets/rs3_tiles_png/tile_${row}_${col}.avif`;
+    L.imageOverlay(url, tileBounds, { className: "pixelated" }).addTo(map);
+  }
+}
 
 map.fitBounds(bounds);
 map.setMaxBounds(bounds);
-
-map.on("click", function (e) {
-  const coords = {
-    x: Math.round(e.latlng.lng),
-    y: Math.round(e.latlng.lat),
-  };
-
-  const text = `"coords": {\n  "x": ${coords.x},\n  "y": ${coords.y}\n},`;
-
-  navigator.clipboard.writeText(text).then(
-    () => {
-      console.log("Copied to clipboard:", text);
-    },
-    (err) => {
-      console.error("Clipboard error:", err);
-    }
-  );
-});
 
 function updateTaskMarker(task) {
   if (currentMarker) {
@@ -58,67 +61,3 @@ function updateTaskMarker(task) {
   }
 }
 
-document.getElementById("close-btn").addEventListener("click", () => {
-  window.close();
-});
-
-document.getElementById("reset-btn").addEventListener("click", () => {
-  if (confirm("Are you sure you want to reset progress?")) {
-    localStorage.clear();
-    location.reload();
-  }
-});
-
-document.getElementById("settings-btn").addEventListener("click", () => {
-  document.getElementById("tutorial-overlay").classList.remove("hidden");
-});
-
-const isElectron = () => {
-  return (
-    (typeof process !== "undefined" &&
-      process.versions != null &&
-      process.versions.electron != null) ||
-    navigator.userAgent.includes("Electron")
-  );
-};
-
-if (isElectron()) {
-  document.getElementById("close-btn").classList.remove("hidden");
-  document.getElementById("drag-handle").classList.remove("hidden");
-
-  window.electronAPI.onMarkTaskDone(() => {
-    taskFlow.markAsDone();
-  });
-
-  window.electronAPI.onMarkTaskUndo(() => {
-    taskFlow.undo();
-  });
-} else {
-  window.addEventListener("keydown", (event) => {
-    if (event.ctrlKey && event.code === "Space") {
-      event.preventDefault();
-      taskFlow.markAsDone();
-    }
-
-    if (event.shiftKey && event.code === "Space") {
-      event.preventDefault();
-      taskFlow.undo();
-    }
-  });
-}
-
-document.addEventListener("DOMContentLoaded", () => {
-  const overlay = document.getElementById("tutorial-overlay");
-  const closeBtn = document.getElementById("close-tutorial-btn");
-
-  const tutorialViewed = localStorage.getItem("tutorialViewed");
-
-  if (!tutorialViewed) {
-    overlay.classList.remove("hidden");
-  }
-
-  closeBtn.addEventListener("click", () => {
-    overlay.classList.add("hidden");
-    localStorage.setItem("tutorialViewed", "true");
-  });
-});

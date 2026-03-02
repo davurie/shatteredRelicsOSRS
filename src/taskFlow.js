@@ -51,6 +51,8 @@ export const taskFlow = {
   },
 
   markAsDone() {
+    console.log('markAsDone0')
+
     if (this.currentIndex < this.rows.length) {
       const task = this.currentTask;
       if (task.type === "TASK" && !task.completed) {
@@ -71,6 +73,7 @@ export const taskFlow = {
   },
 
   undo() {
+    console.log('undo')
     const prev = this.prevTaskIndex();
     if (prev === -1) return;
 
